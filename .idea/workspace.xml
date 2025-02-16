@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42168d95-7993-4517-8882-d4c204f7dd5c" name="Changes" comment="init prettier &amp; eslint">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42168d95-7993-4517-8882-d4c204f7dd5c" name="Changes" comment="prettiered" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +82,7 @@
       <workItem from="1739657297758" duration="313000" />
       <workItem from="1739657638500" duration="15000" />
       <workItem from="1739738959635" duration="1115000" />
-      <workItem from="1739740186721" duration="1120000" />
+      <workItem from="1739740186721" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739742335005</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="prettiered">
+      <created>1739742873163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739742873163</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +150,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="initial commint" />
     <MESSAGE value="init prettier &amp; eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="init prettier &amp; eslint" />
+    <MESSAGE value="prettiered" />
+    <option name="LAST_COMMIT_MESSAGE" value="prettiered" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

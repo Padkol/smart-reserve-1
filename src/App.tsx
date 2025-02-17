@@ -18,11 +18,12 @@ const ProtectedRoute = ({ user, children }: ProtectedRouteProps) => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route element={<SignIn />} path="/sign-in" />
-        </Routes>
-      </BrowserRouter>
+      <SignIn />
+      {/*<BrowserRouter>*/}
+      {/*  <Routes>*/}
+      {/*    <Route element={<SignIn />} path="/sign-in" />*/}
+      {/*  </Routes>*/}
+      {/*</BrowserRouter>*/}
     </div>
   );
 }

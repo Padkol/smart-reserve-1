@@ -7,9 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Test <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p>Smart Reserve</p>
       </header>
     </div>
   );

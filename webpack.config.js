@@ -35,7 +35,8 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      // eslint-disable-next-line no-undef
+      template: path.resolve(__dirname, 'public', 'index.html'),
     }),
   ],
 };

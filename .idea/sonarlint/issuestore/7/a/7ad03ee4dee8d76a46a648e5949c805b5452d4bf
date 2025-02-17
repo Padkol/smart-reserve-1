@@ -1,0 +1,68 @@
+
+_javascript:S11216"CExtract the assignment of "portablePathMatch" from this expression.(Î¿™‡
+ajavascript:S11218"FExtract the assignment of "uncPortablePathMatch" from this expression.(İ…ñ
+Sjavascript:S46249"7Refactor this code to not use nested template literals.(èŞ¬¬
+Sjavascript:S46249"7Refactor this code to not use nested template literals.(èŞ¬¬
+cjavascript:S1121@"BExtract the assignment of "windowsPathMatch" from this expression.(ÚÕøáşÿÿÿÿ
+fjavascript:S1121B"EExtract the assignment of "uncWindowsPathMatch" from this expression.( ‰üØüÿÿÿÿ
+Xjavascript:S4624C"7Refactor this code to not use nested template literals.(†¤·µÿÿÿÿÿ
+Xjavascript:S4624C"7Refactor this code to not use nested template literals.(†¤·µÿÿÿÿÿ
+5javascript:S1199ƒ"Block is redundant.(ÒÌâ–øÿÿÿÿ
+5javascript:S1199’"Block is redundant.(ÒÌâ–øÿÿÿÿ
+5javascript:S1199¡"Block is redundant.(ÒÌâ–øÿÿÿÿ
+ojavascript:S107Ñ"NAsync function 'copyFolder' has too many parameters (9). Maximum allowed is 7.(†ÇÇœşÿÿÿÿ
+vjavascript:S3776Ñ"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(†ÇÇœşÿÿÿÿ
+qjavascript:S107œ"UAsync function 'copyFileViaIndex' has too many parameters (10). Maximum allowed is 7.(•¸øî
+qjavascript:S3776œ"TRefactor this function to reduce its Cognitive Complexity from 47 to the 15 allowed.(•¸øî
+Xjavascript:S3516œ";Refactor this function to not always return the same value.(•¸øî
+Yjavascript:S4624­"7Refactor this code to not use nested template literals.(íõ¿ÿÿÿÿÿ
+kjavascript:S1121µ"IExtract the assignment of "AtomicBehavior2['Lock']" from this expression.(ÛµÜúüÿÿÿÿ
+hjavascript:S1121¶"KExtract the assignment of "AtomicBehavior2['Rename']" from this expression.(¼Ä¾®
+Yjavascript:S1854·"<Remove this useless assignment to variable "AtomicBehavior".(¤²ªÔ
+Sjavascript:S4624Ó"7Refactor this code to not use nested template literals.(Ó­î.
+sjavascript:S107ş"RAsync function 'copyFileDirect' has too many parameters (9). Maximum allowed is 7.(äêÄÙÿÿÿÿÿ
+mjavascript:S107—"LAsync function 'copyFile' has too many parameters (9). Maximum allowed is 7.(Ü³“­şÿÿÿÿ
+kjavascript:S107½"OAsync function 'copySymlink' has too many parameters (9). Maximum allowed is 7.(ê…–ã
+qjavascript:S3776…"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÛúÙ‡
+qjavascript:S3776½"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Šø®ı
+qjavascript:S3776Ü"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(Á¹Ë¾
+vjavascript:S3776‹"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.( ©âıÿÿÿÿ
+Tjavascript:S4624¦"7Refactor this code to not use nested template literals.(«ÿÙå
+qjavascript:S3776ø"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÖÊÕÁ
+Xjavascript:S6353ø";Use concise character class syntax '\d' instead of '[0-9]'.(ßÁÅû
+vjavascript:S5843ú"TSimplify this regular expression to reduce its complexity from 24 to the 20 allowed.(Å°°Áøÿÿÿÿ
+vjavascript:S3776›"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(²õ³Õÿÿÿÿÿ
+Yjavascript:S4624±"7Refactor this code to not use nested template literals.(Ø„’‰ûÿÿÿÿ
+Yjavascript:S4624±"7Refactor this code to not use nested template literals.(Ø„’‰ûÿÿÿÿ
+ljavascript:S6653Ò"JUse 'Object.hasOwn()' instead of 'Object.prototype.hasOwnProperty.call()'.(ˆù¦»şÿÿÿÿ
+Yjavascript:S4624ô"7Refactor this code to not use nested template literals.(’õÌ„ıÿÿÿÿ
+Yjavascript:S4624ô"7Refactor this code to not use nested template literals.(’õÌ„ıÿÿÿÿ
+Tjavascript:S4624û"7Refactor this code to not use nested template literals.(ŸòÁ
+Tjavascript:S4624û"7Refactor this code to not use nested template literals.(ŸòÁ
+Yjavascript:S4624‰"7Refactor this code to not use nested template literals.(ÉÃº‹üÿÿÿÿ
+Yjavascript:S4624‰"7Refactor this code to not use nested template literals.(ÉÃº‹üÿÿÿÿ
+Yjavascript:S4624‰"7Refactor this code to not use nested template literals.(ÉÃº‹üÿÿÿÿ
+Yjavascript:S4624‰"7Refactor this code to not use nested template literals.(ÉÃº‹üÿÿÿÿ
+Yjavascript:S4624‹"7Refactor this code to not use nested template literals.(¦µ‹ïùÿÿÿÿ
+Yjavascript:S4624‹"7Refactor this code to not use nested template literals.(¦µ‹ïùÿÿÿÿ
+Tjavascript:S4624"7Refactor this code to not use nested template literals.(ÏËÕ
+Tjavascript:S4624"7Refactor this code to not use nested template literals.(ÏËÕ
+Tjavascript:S4624"7Refactor this code to not use nested template literals.(ÏËÕ
+Tjavascript:S4624"7Refactor this code to not use nested template literals.(ÏËÕ
+Tjavascript:S4624”"7Refactor this code to not use nested template literals.(Ñ­ˆú
+Tjavascript:S4624”"7Refactor this code to not use nested template literals.(Ñ­ˆú
+Tjavascript:S4624”"7Refactor this code to not use nested template literals.(Ñ­ˆú
+Tjavascript:S4624”"7Refactor this code to not use nested template literals.(Ñ­ˆú
+ijavascript:S4138›"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ĞèÛ
+vjavascript:S5843­"TSimplify this regular expression to reduce its complexity from 47 to the 20 allowed.(•†‰úÿÿÿÿ
+yjavascript:S107¯"XFunction 'resolvePackageTargetString' has too many parameters (8). Maximum allowed is 7.(Åùÿÿÿÿ
+vjavascript:S3776¯"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(Åùÿÿÿÿ
+mjavascript:S107î"RFunction 'resolvePackageTarget' has too many parameters (8). Maximum allowed is 7.(°¢½
+pjavascript:S3776î"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(°¢½
+ijavascript:S4138‡"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(Î¸»Ä
+ijavascript:S4138ª"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ĞèÛ
+ijavascript:S4138´"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ĞèÛ
+vjavascript:S3776ß"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(šå…şÿÿÿÿ
+ijavascript:S4138ƒ"LExpected a `for-of` loop instead of a `for` loop with this simple iteration.(ĞèÛ
+pjavascript:S5843´"TSimplify this regular expression to reduce its complexity from 23 to the 20 allowed.(éù°1
+qjavascript:S3776Ï"TRefactor this function to reduce its Cognitive Complexity from 31 to the 15 allowed.(†ÏÍ

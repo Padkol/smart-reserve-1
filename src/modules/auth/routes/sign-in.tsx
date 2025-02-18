@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { Header } from '../../../shared/components/header';
-
 export const SignIn = () => {
   return (
-    <div>
-      <Header />
+    <div className="flex justify-center">
+      <h2 className="text-left text-4xl font-bold text-center">Авторизація</h2>
     </div>
   );
 };

@@ -10,15 +10,9 @@ export const SignIn = () => {
       </div>
 
       <div className="flex flex-1 flex-col gap-5 items-start">
-        <UIInput
-          titleClassName="min-w-[100px] text-right font-bold text-xl"
-          title="Email"
-        />
+        <UIInput titleClassName="min-w-[100px]" title="Email" />
 
-        <UIInput
-          titleClassName="min-w-[100px] text-right font-bold text-xl"
-          title="Password"
-        />
+        <UIInput titleClassName="min-w-[100px]" title="Password" />
       </div>
     </div>
   );

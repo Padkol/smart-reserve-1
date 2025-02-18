@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "react-scripts build && mv build docs",
+    "deploy": "react-scripts build && gh-pages -d dist",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
     "fix": "prettier . --write",

@@ -1,8 +1,10 @@
-import React, { FC, PropsWithChildren } from 'react';
-import './App.css';
+import React, { PropsWithChildren } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
+
+import { Layout } from './shared';
 import { SignIn } from './modules/auth/routes';
-import { Layout } from './shared/components/layout';
+
+import './App.css';
 
 type ProtectedRouteProps = PropsWithChildren<{
   user: { id: string } | null;

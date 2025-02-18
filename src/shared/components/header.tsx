@@ -8,6 +8,7 @@ export const Header = () => {
         alt="logo"
         src={require('../images/logo.png')}
       />
+      <span className="text-red-500">text</span>
     </div>
   );
 };

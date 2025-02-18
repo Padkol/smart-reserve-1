@@ -15,7 +15,8 @@
   },
   "globals": {
     "module": "readonly",
-    "require": "readonly"
+    "require": "readonly",
+    "process": "readonly"
   },
   "plugins": ["@typescript-eslint", "react"],
   "rules": {

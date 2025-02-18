@@ -12,20 +12,32 @@ module.exports = {
     clean: true,
   },
   devServer: {
-    static: './dist',
+    static: {
+      // eslint-disable-next-line no-undef
+      directory: path.resolve(__dirname, 'dist'),
+    },
+    port: 3001,
+    open: true,
     hot: true,
-    port: 3000,
+    compress: true,
+    historyApiFallback: true,
   },
   module: {
     rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+      },
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+        test: /\.css$/i,
+        // eslint-disable-next-line no-undef
+        include: path.resolve(__dirname, 'src'),
+        use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
     ],
   },

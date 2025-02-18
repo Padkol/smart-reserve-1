@@ -1,9 +1,10 @@
 import React from 'react';
+import { Layout } from '../../../shared/components/layout';
 
 export const SignIn = () => {
   return (
     <div className="flex justify-center">
-      <h2 className="text-left text-4xl font-bold text-center">Авторизація</h2>
+      <Layout.ScreenName title="Авторизація" />
     </div>
   );
 };

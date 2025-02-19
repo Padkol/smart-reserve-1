@@ -13,3 +13,9 @@ code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+
+@theme {
+  --color-primary: rgba(255, 150, 97, 0.62);
+}
+

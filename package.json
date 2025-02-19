@@ -24,8 +24,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "react-scripts build && gh-pages -d dist",
     "build": "webpack --mode production",
+    "deploy": "react-scripts build && gh-pages -d dist",
     "start": "webpack serve --mode development",
     "fix": "prettier . --write",
     "test": "react-scripts test",

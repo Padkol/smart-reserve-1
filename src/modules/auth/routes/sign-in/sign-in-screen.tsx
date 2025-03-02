@@ -1,10 +1,10 @@
 import { z } from 'zod';
 import React from 'react';
 
-import { UIButton } from '../../../ui-kit';
-import { Layout, useForm } from '../../../shared';
-import { InputController } from '../../../shared/components/controller/input-controller';
-import { Controller } from '../../../shared/components/controller/controller';
+import { UIButton } from '../../../../ui-kit';
+import { Layout, useForm } from '../../../../shared';
+import { Controller } from '../../../../shared/components/controller/controller';
+import { InputController } from '../../../../shared/components/controller/input-controller';
 
 const SignInSchema = z.object({
   email: z.string().email(),
@@ -13,12 +13,12 @@ const SignInSchema = z.object({
     .min(8, 'Password must be at least 8 characters long')
     .max(100, 'Password must not exceed 100 characters')
     .regex(
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]).{8,}$/,
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?]).{8,}$/,
       'Password must contain at least one lowercase letter, one uppercase letter, one number, and one special character',
     ),
 });
 
-export const SignIn = () => {
+export const SignInScreen = () => {
   const form = useForm({ schema: SignInSchema });
 
   const onSubmit = form.handleSubmit((fields) => {

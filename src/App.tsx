@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
 
 import { Layout } from './shared';
-import { SignIn } from './modules/auth/routes';
+import { SignInRoute } from './modules/auth/routes';
 
 import './App.css';
 
@@ -24,8 +24,8 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
-            <Route element={<SignIn />} path="/" />
-            <Route element={<SignIn />} path="/sign-in" />
+            <Route element={<SignInRoute />} path="/" />
+            <Route element={<SignInRoute />} path="/sign-in" />
           </Routes>
         </Layout>
       </BrowserRouter>

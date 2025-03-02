@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 import App from './App';
+import { UIProvider } from './shared';
 import reportWebVitals from './reportWebVitals';
-import { DevSupport } from '@react-buddy/ide-toolbox';
-import { ComponentPreviews, useInitial } from './dev';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -13,12 +12,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <DevSupport
-      ComponentPreviews={ComponentPreviews}
-      useInitialHook={useInitial}
-    >
+    <UIProvider>
       <App />
-    </DevSupport>
+    </UIProvider>
   </React.StrictMode>,
 );
 
